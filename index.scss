@@ -1,0 +1,42 @@
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.creation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    >* {
+        margin: 0;
+        padding: 0;
+        flex: 0 0;
+    }
+
+    text-align: center;
+    background-color: yellow;
+    width: 300px;
+    aspect-ratio: 4/3; 
+    
+    dl {
+        display: flex;
+        flex-direction: column;
+        div {
+            display: flex;
+        }
+    }
+
+    footer {
+        background-color: blue;
+        ul {
+            display: flex;
+            list-style: none;
+        }
+    }
+}
